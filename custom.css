@@ -52,7 +52,7 @@ body {
 
 /*About Me*/
 .about-me {
-    width: 50%;
+    width: -50%;
     text-align:right;
 }
 
