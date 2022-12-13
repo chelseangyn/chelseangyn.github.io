@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* Body  */
+body {
+    background-color: #F2ECEB;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    z-index: 1;
+    background-color:#F2ECEB;
+    width: 85.5%;
+    height: 3em;
+}
+.navbar-brand {
+    width: auto;
+    height: 2em;
+}
+.nav-item {
+    float: right;
+}
+.nav-link {
+    text-align: right;
+    color: #1B1818;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 1em;
+    float: right;
+}
+.nav-link:hover {
+    color: #EEA13B;
+}
+
+/* Cover */
+.coverpage {
+    text-align: right;
+    padding: 150px 0px;
+    vertical-align: middle;
+}
+.name {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: 4em;
+}
+.subtitle {
+    font-family: 'Source Sans Pro';
+    font-size: 2em;
+    font-weight: 500;
+}
+
+/* Portfolio */
+.portfolio {
+    padding-top: 15px;
+}
+.card {
+    border-radius: 10px;
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.projectbtn {
+    width: 100%;
+    background-color: white;
+    border: none;
+    font-size: 1.3em;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.projectbtn:hover {
+    color: #EEA13B;
+}
+.modal-content {
+    border-radius: 10px;
+}
+.carousel-caption {
+    text-shadow: 0 0 7px #fff;
+}
+
+/*resume*/
+.resume {
+    padding-top: 15px;
+}
+.resume-heading {
+    color:#1B1818;
+    text-decoration: none;
+}
+.resume-heading:hover {
+    color:#EEA13B;
+    text-decoration: none;
+}
+
+/* Contact */
+.contact {
+    padding-top: 15px;
+}
+.contact-list {
+    list-style: none;
+    text-align: center;
+}
+.contact-list li {
+    display: inline;
+    padding: 14px 16px;
+}
+.contact-link {
+    color: #1B1818;
+    text-decoration: none;
+    display: inline;
+}
+.contact-link:hover {
+    color: #EEA13B;
+}
