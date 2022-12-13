@@ -56,6 +56,9 @@ body {
     justify-content: flex-end;
     text-align: right;
 }
+.flex {
+    width: 50%;
+}
 
 /* Portfolio */
 .portfolio {
