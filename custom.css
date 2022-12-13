@@ -58,8 +58,6 @@ body {
 /* Portfolio */
 .portfolio {
     padding-top: 15px;
-    flex: auto;
-    align-content: center;
 }
 .card {
     border-radius: 10px;
