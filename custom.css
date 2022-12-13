@@ -53,6 +53,7 @@ body {
 /*About Me*/
 .about-me {
     width: 50%;
+    float: right;
 }
 
 /* Portfolio */
@@ -61,6 +62,9 @@ body {
 }
 .row {
     display: inline;
+}
+.col {
+    margin: 5px;
 }
 .card {
     border-radius: 10px;
@@ -95,6 +99,7 @@ body {
 }
 .resume-heading {
     color:#1B1818;
+    font-weight: bold;
     text-decoration: none;
 }
 .resume-heading:hover {
