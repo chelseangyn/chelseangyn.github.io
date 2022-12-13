@@ -59,6 +59,9 @@ body {
 .portfolio {
     padding-top: 15px;
 }
+.row {
+    display: inline-block;
+}
 .card {
     border-radius: 10px;
 }
