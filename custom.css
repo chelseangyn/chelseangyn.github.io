@@ -98,6 +98,15 @@ body {
     color:#EEA13B;
     text-decoration: none;
 }
+.schoolinfo {
+    list-style: none;
+}
+.resumelinks {
+    color:#1B1818;
+}
+.resumelinks:hover {
+    color:#EEA13B;
+}
 
 /* Contact */
 .contact {
