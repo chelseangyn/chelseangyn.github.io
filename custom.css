@@ -60,7 +60,7 @@ body {
     padding-top: 15px;
 }
 .row {
-    display: inline-block;
+    display: inline;
 }
 .card {
     border-radius: 10px;
